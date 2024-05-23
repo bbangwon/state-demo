@@ -5,8 +5,9 @@ import './App.css'
 //import EmojiClicker from './EmojiClicker'
 //import ScoreKeeper2 from './ScoreKeeper2'
 // import Lucky7 from './Lucky7'
-import LuckyN from './LuckyN'
-import {sum} from './utils'
+// import LuckyN from './LuckyN'
+// import {sum} from './utils'
+import BoxGrid from './BoxGrid'
 
 function lessThan4(dice) {
   return sum(dice) < 4;
@@ -21,8 +22,9 @@ function App() {
 
   return (
     <>
-    <LuckyN winCheck={lessThan4} title="Roll less than 4" />
-    <LuckyN winCheck={allSameValue} numDice={3} title="Roll the same number"/>
+    <BoxGrid />
+    {/* <LuckyN winCheck={lessThan4} title="Roll less than 4" />
+    <LuckyN winCheck={allSameValue} numDice={3} title="Roll the same number"/> */}
     {/* <Lucky7 /> */}
     {/* <ScoreKeeper2 numplayers={3} target={5} /> */}
     {/* <EmojiClicker /> */}
