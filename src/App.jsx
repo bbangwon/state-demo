@@ -10,7 +10,8 @@ import './App.css'
 // import BoxGrid from './BoxGrid'
 // import CounterEffect from './CounterEffect'
 // import QuoteFetcher from './QuoteFetcher'
-import QuoteFetcherLoader from './QuoteFetcherLoader'
+//import QuoteFetcherLoader from './QuoteFetcherLoader'
+import ProfileViewerWithSearch from './ProfileViewerWithSearch'
 
 // function lessThan4(dice) {
 //   return sum(dice) < 4;
@@ -26,7 +27,7 @@ function App() {
   return (
     <>
       {/* <CounterEffect /> */}
-      <QuoteFetcherLoader />
+      <ProfileViewerWithSearch />
     {/* <BoxGrid /> */}
     {/* <LuckyN winCheck={lessThan4} title="Roll less than 4" />
     <LuckyN winCheck={allSameValue} numDice={3} title="Roll the same number"/> */}
