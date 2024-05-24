@@ -8,7 +8,8 @@ import './App.css'
 // import LuckyN from './LuckyN'
 // import {sum} from './utils'
 // import BoxGrid from './BoxGrid'
-import CounterEffect from './CounterEffect'
+// import CounterEffect from './CounterEffect'
+import QuoteFetcher from './QuoteFetcher'
 
 // function lessThan4(dice) {
 //   return sum(dice) < 4;
@@ -23,7 +24,8 @@ function App() {
 
   return (
     <>
-      <CounterEffect />
+      {/* <CounterEffect /> */}
+      <QuoteFetcher />
     {/* <BoxGrid /> */}
     {/* <LuckyN winCheck={lessThan4} title="Roll less than 4" />
     <LuckyN winCheck={allSameValue} numDice={3} title="Roll the same number"/> */}
